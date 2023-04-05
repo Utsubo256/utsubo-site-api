@@ -1,0 +1,40 @@
+inherit_from: .rubocop_todo.yml
+
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rspec
+
+AllCops:
+  TargetRubyVersion: 3.2
+  Exclude:
+    - 'bin/**/*'
+    - 'Rakefile'
+    - 'config.ru'
+    - 'config/boot.rb'
+    - 'config/puma.rb'
+    - 'db/schema.rb'
+  NewCops: enable
+
+# 機能ごとにgemをまとめているため、アルファベット順にしない
+Bundler/OrderedGems:
+  Enabled: false
+
+# 自動修正を実施した際、不適切な修正があったため、autocorrectableの対象にしない
+Layout/CommentIndentation:
+  AutoCorrect: false
+
+Metrics/BlockLength:
+  Exclude:
+   - 'config/environments/development.rb'
+   - 'config/environments/production.rb'
+
+# contextの文言にある程度柔軟性を持たせたいため、'のとき'など、特定ワードを指定しない
+RSpec/ContextWording:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/GlobalStdStream:
+  Enabled: false
