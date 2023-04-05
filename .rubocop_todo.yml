@@ -13,12 +13,6 @@ Rails/FilePath:
   Exclude:
     - 'spec/rails_helper.rb'
 
-# Offense count: 1
-# This cop supports safe autocorrection (--autocorrect).
-Style/BlockComments:
-  Exclude:
-    - 'spec/spec_helper.rb'
-
 # Offense count: 3
 # Configuration parameters: AllowedConstants.
 Style/Documentation:
