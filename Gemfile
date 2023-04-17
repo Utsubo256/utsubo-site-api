@@ -12,8 +12,8 @@ gem 'pg', '~> 1.1'
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '~> 5.0'
 
-# Build JSON APIs with ease [https://github.com/rails/jbuilder]
-# gem "jbuilder"
+# ActiveModel::Serializers allows you to generate your JSON in an object-oriented and convention-driven manner [https://rubygems.org/gems/active_model_serializers]
+gem 'active_model_serializers', '~> 0.10.13'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
