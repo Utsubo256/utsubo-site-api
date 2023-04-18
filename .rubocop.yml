@@ -27,8 +27,19 @@ Metrics/BlockLength:
    - 'config/environments/development.rb'
    - 'config/environments/production.rb'
 
+Metrics/MethodLength:
+  Max: 25
+
 # contextの文言にある程度柔軟性を持たせたいため、'のとき'など、特定ワードを指定しない
 RSpec/ContextWording:
+  Enabled: false
+
+# モデル作成後に自動作成されるspecファイルにpendingがあるため
+RSpec/PendingWithoutReason:
+  Enabled: false
+
+# namespace付きのクラスを作ったりするので簡単に書きたい
+Style/ClassAndModuleChildren:
   Enabled: false
 
 Style/Documentation:
