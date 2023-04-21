@@ -1,2 +1,0 @@
-class MoraysController < ApplicationController
-end
