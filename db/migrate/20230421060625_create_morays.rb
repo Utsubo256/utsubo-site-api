@@ -10,9 +10,10 @@ class CreateMorays < ActiveRecord::Migration[7.0]
       t.string :distribution
       t.text :description
       t.string :video_url
-      t.datetime :deleted_at
+      t.datetime :discarded_at
 
       t.timestamps
     end
+    add_index :morays, :discarded_at
   end
 end
