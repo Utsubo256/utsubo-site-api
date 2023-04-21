@@ -1,0 +1,2 @@
+class Moray < ApplicationRecord
+end
