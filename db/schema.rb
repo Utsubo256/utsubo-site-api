@@ -10,9 +10,25 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_04_16_021952) do
+ActiveRecord::Schema[7.0].define(version: 2023_04_21_060625) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "morays", force: :cascade do |t|
+    t.string "avatar"
+    t.string "name_ja"
+    t.string "name_en"
+    t.string "name_academic"
+    t.float "max_length"
+    t.string "max_length_str"
+    t.string "distribution"
+    t.text "description"
+    t.string "video_url"
+    t.datetime "discarded_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["discarded_at"], name: "index_morays_on_discarded_at"
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "uid", null: false
