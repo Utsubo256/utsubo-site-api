@@ -3,7 +3,7 @@ class CreateAquaria < ActiveRecord::Migration[7.0]
     create_table :aquaria do |t|
       t.string :image
       t.string :name
-      t.string :address_
+      t.string :address_city
       t.string :address_detail
       t.string :region
       t.text :description
