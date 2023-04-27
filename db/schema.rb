@@ -10,9 +10,25 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_04_21_060625) do
+ActiveRecord::Schema[7.0].define(version: 2023_04_25_081824) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "aquaria", force: :cascade do |t|
+    t.string "image"
+    t.string "name"
+    t.string "address_city"
+    t.string "address_detail"
+    t.string "region"
+    t.text "description"
+    t.string "site_url"
+    t.string "business_days_hours_url"
+    t.string "entrance_fee_url"
+    t.datetime "discarded_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["discarded_at"], name: "index_aquaria_on_discarded_at"
+  end
 
   create_table "morays", force: :cascade do |t|
     t.string "avatar"
