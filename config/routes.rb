@@ -4,7 +4,7 @@ Rails.application.routes.draw do
       post '/auth', to: 'authentications#create'
       resources :morays, only: %i[index]
       resources :aquaria, only: %i[index]
-      resource :profile, only: %i[show]
+      resource :profile, only: %i[show update]
     end
   end
 end
