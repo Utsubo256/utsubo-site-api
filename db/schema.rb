@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_04_25_081824) do
+ActiveRecord::Schema[7.0].define(version: 2023_05_02_054746) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -28,6 +28,17 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_25_081824) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["discarded_at"], name: "index_aquaria_on_discarded_at"
+  end
+
+  create_table "exhibitions", force: :cascade do |t|
+    t.integer "moray_id"
+    t.integer "aquarium_id"
+    t.datetime "discarded_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["aquarium_id"], name: "index_exhibitions_on_aquarium_id"
+    t.index ["moray_id", "aquarium_id"], name: "index_exhibitions_on_moray_id_and_aquarium_id", unique: true
+    t.index ["moray_id"], name: "index_exhibitions_on_moray_id"
   end
 
   create_table "morays", force: :cascade do |t|
