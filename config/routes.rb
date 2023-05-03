@@ -3,7 +3,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       post '/auth', to: 'authentications#create'
       resources :morays, only: %i[index show]
-      resources :aquaria, only: %i[index]
+      resources :aquaria, only: %i[index show]
       resource :profile, only: %i[show update]
     end
   end
