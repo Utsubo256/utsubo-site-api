@@ -1,8 +1,6 @@
 # うつぼさいと
 
-<img src="https://github.com/Utsubo256/image-storage/blob/main/utsubo-site/readme/lp.png?raw=true" width="250">
-<img src="https://github.com/Utsubo256/image-storage/blob/main/utsubo-site/readme/morays.png?raw=true" width="250">
-<img src="https://github.com/Utsubo256/image-storage/blob/main/utsubo-site/readme/aquaria.png?raw=true" width="250">
+<img src="https://github.com/Utsubo256/image-storage/blob/main/utsubo-site/readme/lp.png?raw=true">
 
 こちらはAPI側のリポジトリです。クライアント側は[こちら](https://github.com/Utsubo256/utsubo-site-client)です。
 
@@ -15,10 +13,14 @@
 - 観たいウツボがどの水族館で観られるか、行きたい水族館でどのウツボが観られるかがすぐに分かる
 - いいねボタンやコメント機能によりウツボの魅力を他の人と共有できる
 
+<img src="https://github.com/Utsubo256/image-storage/blob/main/utsubo-site/readme/morays.png?raw=true" width="500">
+<img src="https://github.com/Utsubo256/image-storage/blob/main/utsubo-site/readme/aquaria.png?raw=true" width="500">
+
 ## 本サービス開発の背景
 
 もともと水族館が好きで、小さい頃から水族館に定期的に訪れていました。
 好きな海の生き物はたくさんいますが、その中でも特にウツボが好きで、水族館に訪れるたびにじっくり観察しています。
+
 ウツボは種類によって大きさや模様がさまざまで、とても魅力的であるにも関わらずあまり注目されていないように感じていました。
 そこで、「ウツボを一覧で表示したり、ウツボを絵にして特徴を分かりやすく伝えれば、ウツボの魅力が伝わるのではないか」と考え、本サービスの開発を始めました。
 
@@ -50,7 +52,7 @@
 [Figma](https://www.figma.com/file/4ZPo7Qanlr5IXEPVTS8fs8/Utsubo-site?type=design&node-id=0-1&t=uvE21rQIoQp0aGY8-0)
 
 ## ER図
-<img src="https://github.com/Utsubo256/image-storage/blob/main/utsubo-site/readme/lp.png?raw=true">
+<img src="https://github.com/Utsubo256/image-storage/blob/main/utsubo-site/readme/ERD.jpg?raw=true">
 
 ## 外部リンク
 - [Twitter](https://twitter.com/Utsubo256)
