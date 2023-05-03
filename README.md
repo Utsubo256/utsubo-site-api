@@ -54,5 +54,8 @@
 <img src="https://github.com/Utsubo256/image-storage/blob/main/utsubo-site/readme/ERD.jpg?raw=true">
 
 ## 外部リンク
+
+学習した内容をTwitterやQiitaに投稿しています。
+
 - [Twitter](https://twitter.com/Utsubo256)
 - [Qiita](https://qiita.com/Utsubo)
