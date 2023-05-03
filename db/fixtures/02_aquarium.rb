@@ -20,10 +20,8 @@ Aquarium.seed(:id,
     region: '東北',
     description: '',
     site_url: 'https://www.aquamarine.or.jp/',
-    business_days_hours_url: '下記リンクの「開館案内」欄
-    https://www.aquamarine.or.jp/guide/info/',
-    entrance_fee_url: '下記リンクの「入館料」蘭
-    https://www.aquamarine.or.jp/guide/info/'
+    business_days_hours_url: 'https://www.aquamarine.or.jp/guide/info/',
+    entrance_fee_url: 'https://www.aquamarine.or.jp/guide/info/'
   },
   {
     id: 3,
@@ -46,8 +44,7 @@ Aquarium.seed(:id,
     region: '関東',
     description: '',
     site_url: 'https://www.aquarium.gr.jp/',
-    business_days_hours_url: 'HP内のカレンダーに記載
-    https://www.aquarium.gr.jp/',
+    business_days_hours_url: 'https://www.aquarium.gr.jp/',
     entrance_fee_url: 'https://www.aquarium.gr.jp/#price'
   },
   {
@@ -59,10 +56,8 @@ Aquarium.seed(:id,
     region: '関東',
     description: '',
     site_url: 'https://www.tokyo-zoo.net/zoo/kasai/',
-    business_days_hours_url: '「開園時間」「休園日」欄に記載
-    https://www.tokyo-zoo.net/zoo/kasai/hours.html',
-    entrance_fee_url: '「入場料」欄に記載
-    https://www.tokyo-zoo.net/zoo/kasai/hours.html'
+    business_days_hours_url: 'https://www.tokyo-zoo.net/zoo/kasai/hours.html',
+    entrance_fee_url: 'https://www.tokyo-zoo.net/zoo/kasai/hours.html'
   },
   {
     id: 6,
@@ -85,10 +80,8 @@ Aquarium.seed(:id,
     region: '中部',
     description: '',
     site_url: 'https://www.marinepia.or.jp/',
-    business_days_hours_url: '「開館時間・休館日」に記載
-    https://www.marinepia.or.jp/info',
-    entrance_fee_url: '「入館料・手続」下の「個人のお客様」「団体のお客様」に記載
-    https://www.marinepia.or.jp/info'
+    business_days_hours_url: 'https://www.marinepia.or.jp/info',
+    entrance_fee_url: 'https://www.marinepia.or.jp/info'
   },
   {
     id: 8,
@@ -99,10 +92,8 @@ Aquarium.seed(:id,
     region: '中部',
     description: '',
     site_url: 'https://www.uozu-aquarium.jp/',
-    business_days_hours_url: '「営業時間・休館日」欄に記載
-    https://www.uozu-aquarium.jp/info/',
-    entrance_fee_url: '「入館料」欄に記載
-    https://www.uozu-aquarium.jp/info/'
+    business_days_hours_url: 'https://www.uozu-aquarium.jp/info/',
+    entrance_fee_url: 'https://www.uozu-aquarium.jp/info/'
   },
   {
     id: 9,
@@ -125,10 +116,8 @@ Aquarium.seed(:id,
     region: '中部',
     description: '',
     site_url: 'https://shimoda-aquarium.com/',
-    business_days_hours_url: '「営業時間のご案内」欄に記載
-    https://shimoda-aquarium.com/information/fee-business-hours/',
-    entrance_fee_url: '「入場料金」欄に記載
-    https://shimoda-aquarium.com/information/fee-business-hours/'
+    business_days_hours_url: 'https://shimoda-aquarium.com/information/fee-business-hours/',
+    entrance_fee_url: 'https://shimoda-aquarium.com/information/fee-business-hours/'
   },
   {
     id: 11,
@@ -175,10 +164,8 @@ Aquarium.seed(:id,
     region: '近畿',
     description: '',
     site_url: 'https://www.shizenhaku.wakayama-c.ed.jp/index.html',
-    business_days_hours_url: '「開館時間」「休館日」欄に記載
-    https://www.shizenhaku.wakayama-c.ed.jp/infomation/infomation.html',
-    entrance_fee_url: '「入館料金」欄に記載
-    https://www.shizenhaku.wakayama-c.ed.jp/infomation/infomation.html'
+    business_days_hours_url: 'https://www.shizenhaku.wakayama-c.ed.jp/infomation/infomation.html',
+    entrance_fee_url: 'https://www.shizenhaku.wakayama-c.ed.jp/infomation/infomation.html'
   },
   {
     id: 15,
@@ -189,10 +176,8 @@ Aquarium.seed(:id,
     region: '近畿',
     description: '',
     site_url: 'https://www.seto.kyoto-u.ac.jp/aquarium/',
-    business_days_hours_url: '「「開館時間・入館料」欄に記載
-    https://www.seto.kyoto-u.ac.jp/aquarium/shisetsu-joho/eigyoujikan-nyukannryo.html',
-    entrance_fee_url: '「開館時間・入館料」欄に記載
-    https://www.seto.kyoto-u.ac.jp/aquarium/shisetsu-joho/eigyoujikan-nyukannryo.html'
+    business_days_hours_url: 'https://www.seto.kyoto-u.ac.jp/aquarium/shisetsu-joho/eigyoujikan-nyukannryo.html',
+    entrance_fee_url: 'https://www.seto.kyoto-u.ac.jp/aquarium/shisetsu-joho/eigyoujikan-nyukannryo.html'
   },
   {
     id: 16,
@@ -203,10 +188,8 @@ Aquarium.seed(:id,
     region: '近畿',
     description: '',
     site_url: 'https://ebikani-aquarium.com/',
-    business_days_hours_url: '「料金」欄に記載
-    https://ebikani-aquarium.com/information/',
-    entrance_fee_url: '「開館時間」「休館日」欄に記載
-    https://ebikani-aquarium.com/information/'
+    business_days_hours_url: 'https://ebikani-aquarium.com/information/',
+    entrance_fee_url: 'https://ebikani-aquarium.com/information/'
   },
   {
     id: 17,
@@ -217,10 +200,8 @@ Aquarium.seed(:id,
     region: '近畿',
     description: '',
     site_url: 'https://marineworld.hiyoriyama.co.jp/',
-    business_days_hours_url: '「入園料金」欄に記載
-    https://marineworld.hiyoriyama.co.jp/information/info01',
-    entrance_fee_url: '「営業時間」欄に記載
-    https://marineworld.hiyoriyama.co.jp/information/info01'
+    business_days_hours_url: 'https://marineworld.hiyoriyama.co.jp/information/info01',
+    entrance_fee_url: 'https://marineworld.hiyoriyama.co.jp/information/info01'
   },
   {
     id: 18,
@@ -231,10 +212,8 @@ Aquarium.seed(:id,
     region: '中国',
     description: '',
     site_url: 'https://www.miyajima-aqua.jp/',
-    business_days_hours_url: '「入館料」欄に記載
-    https://miyajima-aqua.jp/guide/',
-    entrance_fee_url: '「営業時間」欄に記載
-    https://miyajima-aqua.jp/guide/'
+    business_days_hours_url: 'https://miyajima-aqua.jp/guide/',
+    entrance_fee_url: 'https://miyajima-aqua.jp/guide/'
   },
   {
     id: 19,
@@ -269,10 +248,8 @@ Aquarium.seed(:id,
     region: '四国',
     description: '',
     site_url: 'https://www.city.muroto.kochi.jp/pages/page0343.php',
-    business_days_hours_url: '「入館料」欄に記載
-    https://www.city.muroto.kochi.jp/pages/page0343.php',
-    entrance_fee_url: '「登校・下校時間」欄に記載
-    https://www.city.muroto.kochi.jp/pages/page0343.php'
+    business_days_hours_url: 'https://www.city.muroto.kochi.jp/pages/page0343.php',
+    entrance_fee_url: 'https://www.city.muroto.kochi.jp/pages/page0343.php'
   },
   {
     id: 22,
@@ -283,10 +260,8 @@ Aquarium.seed(:id,
     region: '九州',
     description: '',
     site_url: 'https://www.umikirara.jp/',
-    business_days_hours_url: '「料金」欄に記載
-    https://www.umikirara.jp/information/',
-    entrance_fee_url: '「営業時間」欄に記載
-    https://www.umikirara.jp/information/'
+    business_days_hours_url: 'https://www.umikirara.jp/information/',
+    entrance_fee_url: 'https://www.umikirara.jp/information/'
   },
   {
     id: 23,
@@ -297,10 +272,8 @@ Aquarium.seed(:id,
     region: '九州',
     description: '',
     site_url: 'https://ioworld.jp/',
-    business_days_hours_url: '「入館料」欄に記載
-    https://ioworld.jp/information',
-    entrance_fee_url: '「営業日・営業時間」欄に記載
-    https://ioworld.jp/information'
+    business_days_hours_url: 'https://ioworld.jp/information',
+    entrance_fee_url: 'https://ioworld.jp/information'
   },
   {
     id: 24,
