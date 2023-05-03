@@ -13,8 +13,7 @@
 - 観たいウツボがどの水族館で観られるか、行きたい水族館でどのウツボが観られるかがすぐに分かる
 - いいねボタンやコメント機能によりウツボの魅力を他の人と共有できる
 
-<img src="https://github.com/Utsubo256/image-storage/blob/main/utsubo-site/readme/morays.png?raw=true" width="300">
-<img src="https://github.com/Utsubo256/image-storage/blob/main/utsubo-site/readme/aquaria.png?raw=true" width="300">
+<img src="https://github.com/Utsubo256/image-storage/blob/main/utsubo-site/readme/morays.png?raw=true" width="350"> <img src="https://github.com/Utsubo256/image-storage/blob/main/utsubo-site/readme/aquaria.png?raw=true" width="350">
 
 ## 本サービス開発の背景
 
