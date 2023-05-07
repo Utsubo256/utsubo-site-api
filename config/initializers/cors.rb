@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'localhost:3001', 'https://utsubo-site-client.vercel.app'
+    origins 'localhost:3001', 'https://www.utsubo-site.net' ,'https://utsubo-site-client.vercel.app'
 
     resource '*',
              headers: :any,
