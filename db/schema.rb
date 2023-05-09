@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_05_02_054746) do
+ActiveRecord::Schema[7.0].define(version: 2023_05_09_033826) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -41,6 +41,18 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_02_054746) do
     t.index ["moray_id"], name: "index_exhibitions_on_moray_id"
   end
 
+  create_table "moray_comments", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.bigint "moray_id", null: false
+    t.text "body"
+    t.string "image"
+    t.datetime "discarded_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["moray_id"], name: "index_moray_comments_on_moray_id"
+    t.index ["user_id"], name: "index_moray_comments_on_user_id"
+  end
+
   create_table "morays", force: :cascade do |t|
     t.string "avatar"
     t.string "name_ja"
@@ -66,4 +78,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_02_054746) do
     t.index ["uid"], name: "index_users_on_uid", unique: true
   end
 
+  add_foreign_key "moray_comments", "morays"
+  add_foreign_key "moray_comments", "users"
 end
