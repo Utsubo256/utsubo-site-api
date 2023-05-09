@@ -5,6 +5,7 @@ class CreateMorayComments < ActiveRecord::Migration[7.0]
       t.references :moray, null: false, foreign_key: true
       t.text :body
       t.string :image
+      t.datetime :discarded_at
 
       t.timestamps
     end
