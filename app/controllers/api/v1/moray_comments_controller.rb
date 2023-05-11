@@ -3,7 +3,7 @@ class Api::V1::MorayCommentsController < ApplicationController
 
   def index
     moray = Moray.find(params[:moray_id])
-    moray_comments = moray.moray_comments
+    moray_comments = moray.moray_comments.kept
     render json: moray_comments, status: :ok
   end
 
