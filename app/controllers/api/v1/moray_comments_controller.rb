@@ -1,4 +1,12 @@
 class Api::V1::MorayCommentsController < ApplicationController
+  skip_before_action :authenticate, only: %i[index]
+
+  def index
+    moray = Moray.find(params[:moray_id])
+    moray_comments = moray.moray_comments
+    render json: moray_comments, status: :ok
+  end
+
   def create
     moray = Moray.find(params[:moray_id])
     moray_comment = current_user.moray_comments.build(moray_comment_params)
