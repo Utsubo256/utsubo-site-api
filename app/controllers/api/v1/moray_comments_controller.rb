@@ -18,6 +18,13 @@ class Api::V1::MorayCommentsController < ApplicationController
     end
   end
 
+  def destroy
+    moray_comment = current_user.moray_comments.find(params[:id])
+    moray_comment.discard
+  end
+
+  private
+
   def moray_comment_params
     params.require(:moray_comment).permit(:body)
   end
