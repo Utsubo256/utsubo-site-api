@@ -21,6 +21,7 @@ class Api::V1::MorayCommentsController < ApplicationController
   def destroy
     moray_comment = current_user.moray_comments.find(params[:id])
     moray_comment.discard
+    render json: moray_comment
   end
 
   private
