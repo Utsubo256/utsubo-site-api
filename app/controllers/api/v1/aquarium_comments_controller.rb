@@ -18,6 +18,12 @@ class Api::V1::AquariumCommentsController < ApplicationController
     end
   end
 
+  def destroy
+    aquarium_comment = current_user.aquarium_comments.find(params[:id])
+    aquarium_comment.discard
+    render json: aquarium_comment
+  end
+
   private
 
   def aquarium_comment_params
