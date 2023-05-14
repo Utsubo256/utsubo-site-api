@@ -1,5 +1,6 @@
 class User < ApplicationRecord
   has_many :moray_comments, dependent: :destroy
+  has_many :aquarium_comments, dependent: :destroy
   validates :name, presence: true, length: { maximum: 15 }
 
   def self.find_or_create_user(user_info)
