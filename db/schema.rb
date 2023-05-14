@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_05_09_033826) do
+ActiveRecord::Schema[7.0].define(version: 2023_05_14_021244) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -28,6 +28,18 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_09_033826) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["discarded_at"], name: "index_aquaria_on_discarded_at"
+  end
+
+  create_table "aquarium_comments", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.bigint "aquarium_id", null: false
+    t.text "body"
+    t.string "image"
+    t.datetime "discarded_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["aquarium_id"], name: "index_aquarium_comments_on_aquarium_id"
+    t.index ["user_id"], name: "index_aquarium_comments_on_user_id"
   end
 
   create_table "exhibitions", force: :cascade do |t|
@@ -78,6 +90,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_09_033826) do
     t.index ["uid"], name: "index_users_on_uid", unique: true
   end
 
+  add_foreign_key "aquarium_comments", "aquaria"
+  add_foreign_key "aquarium_comments", "users"
   add_foreign_key "moray_comments", "morays"
   add_foreign_key "moray_comments", "users"
 end
