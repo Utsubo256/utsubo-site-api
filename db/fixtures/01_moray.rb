@@ -8,7 +8,7 @@ Moray.seed(:id,
     max_length: 180,
     max_length_str: '180cm',
     distribution: nil,
-    description: nil,
+    description: '口の中が黄色く、体の模様が途中から変化している。よく見ると目の中に縦線が入っている。',
     video_url: 'hsQxh_Vy3yk'
   },
   {
@@ -20,7 +20,7 @@ Moray.seed(:id,
     max_length: 54.5,
     max_length_str: '54.5cm',
     distribution: nil,
-    description: nil,
+    description: '太めの縞模様とつぶらな瞳が特徴的。',
     video_url: 'MGE-C0XBx10'
   },
   {
@@ -32,7 +32,7 @@ Moray.seed(:id,
     max_length: 37.3,
     max_length_str: '37.3cm',
     distribution: nil,
-    description: nil,
+    description: 'ウツボたちの中では小さめ。紫外線からを身を守るためのタンパク質を体に持ち、紫外線が当たると光る。',
     video_url: 'uMbqeSfEec0'
   },
   {
@@ -44,7 +44,7 @@ Moray.seed(:id,
     max_length: 80.0,
     max_length_str: '80.0cm',
     distribution: nil,
-    description: nil,
+    description: 'グレーの体に網目模様があるのが特徴的。',
     video_url: 'qOfkmIrLy8I'
   },
   {
@@ -56,7 +56,7 @@ Moray.seed(:id,
     max_length: 300,
     max_length_str: '300cm',
     distribution: nil,
-    description: nil,
+    description: '白い体に黒い豹柄が特徴。ウツボの中では最大級の大きさ。通称インディアンモレイ。',
     video_url: 'O51DSF7vgv4'
   },
   {
@@ -68,7 +68,7 @@ Moray.seed(:id,
     max_length: 91.5,
     max_length_str: '91.5cm',
     distribution: nil,
-    description: nil,
+    description: '展示数が一番多いウツボ。ウツボは総称である「ウツボ (moray)」と、その中の1種である「ウツボ (kidako moray)」がいるのでご注意。',
     video_url: 'koUwkIv-N_s'
   },
   {
@@ -80,7 +80,7 @@ Moray.seed(:id,
     max_length: 400,
     max_length_str: '400cm',
     distribution: nil,
-    description: nil,
+    description: '名前の通り、とても長いウツボ。',
     video_url: 'uOHHJ2dwYog'
   },
   {
@@ -92,7 +92,7 @@ Moray.seed(:id,
     max_length: 100.0,
     max_length_str: '100.0cm',
     distribution: nil,
-    description: nil,
+    description: '蜘蛛みたいな模様をしている。',
     video_url: 'UbNNKuSLNqY'
   },
   {
@@ -104,7 +104,7 @@ Moray.seed(:id,
     max_length: 90.0,
     max_length_str: '90.0cm',
     distribution: nil,
-    description: nil,
+    description: 'ワニのような凶暴そうな顔と柄が特徴的。性格はそこまで凶暴ではない。',
     video_url: 'oHN8mwTCg2g'
   },
   {
@@ -116,7 +116,7 @@ Moray.seed(:id,
     max_length: nil,
     max_length_str: nil,
     distribution: nil,
-    description: nil,
+    description: '長いウツボ。オナガウツボと同じ種類だと思われていたが、別の種類と判明した。',
     video_url: nil
   },
   {
@@ -128,8 +128,8 @@ Moray.seed(:id,
     max_length: 73.2,
     max_length_str: '73.2cm',
     distribution: nil,
-    description: nil,
-    video_url: nil
+    description: '体の模様が錆に似ている。目の虹彩が他のウツボと違い白色になっている。',
+    video_url: 'ELcTKIOo5bI'
   },
   {
     id: 12,
@@ -140,8 +140,8 @@ Moray.seed(:id,
     max_length: 150,
     max_length_str: '150cm',
     distribution: nil,
-    description: nil,
-    video_url: nil
+    description: '名前の通り、シマウマのような縞模様を持っている。',
+    video_url: 'dx78aVtG72s'
   },
   {
     id: 13,
@@ -152,8 +152,8 @@ Moray.seed(:id,
     max_length: 150,
     max_length_str: '150cm',
     distribution: nil,
-    description: nil,
-    video_url: nil
+    description: '大きい体に小さな顔。キカイウツボの中では最大級の大きさ。つぶらな瞳が特徴。',
+    video_url: 'SiI6MPfkq9g'
   },
   {
     id: 14,
@@ -164,7 +164,7 @@ Moray.seed(:id,
     max_length: 68.8,
     max_length_str: '68.8cm',
     distribution: nil,
-    description: nil,
+    description: 'タピオカミルクティーみたいな色と模様をしている。',
     video_url: nil
   },
   {
@@ -176,7 +176,7 @@ Moray.seed(:id,
     max_length: 300,
     max_length_str: '300cm',
     distribution: nil,
-    description: nil,
+    description: 'ウツボの中でも最大級の大きさで、毒を持っている。豹柄がオシャレ。',
     video_url: 'Af8X62dxH6w'
   },
   {
@@ -188,8 +188,8 @@ Moray.seed(:id,
     max_length: 92.0,
     max_length_str: '92.0cm',
     distribution: nil,
-    description: nil,
-    video_url: nil
+    description: '他のウツボにはない、クワッ！と開いた口とツノが特徴的。ツノは実は鼻孔で2対持っている。',
+    video_url: 'yOgTJUA2qUE'
   },
   {
     id: 17,
@@ -200,8 +200,8 @@ Moray.seed(:id,
     max_length: 33.8,
     max_length_str: '33.8cm',
     distribution: nil,
-    description: nil,
-    video_url: nil
+    description: '涙目になっているような模様が特徴的。川に棲んでいる。',
+    video_url: 'vJkOgBU1As4'
   },
   {
     id: 18,
@@ -212,8 +212,8 @@ Moray.seed(:id,
     max_length: 180,
     max_length_str: '180cm',
     distribution: nil,
-    description: nil,
-    video_url: nil
+    description: '元々ゴイシとニセゴイシがいたが、どちらも同じ種類だった。ニセゴイシが先に見つかったのでニセゴイシが残った。',
+    video_url: 'dEYBbrfMhTg'
   },
   {
     id: 19,
@@ -224,8 +224,8 @@ Moray.seed(:id,
     max_length: 130,
     max_length_str: '130cm',
     distribution: nil,
-    description: nil,
-    video_url: nil
+    description: '子どもは黒色、オスは青色、メスは黄色。子どもの時は全部オスで歳をとるとメスになる個体が出てくる。泳ぐさまはリボンのよう。',
+    video_url: 'yMpXCODiU-4'
   },
   {
     id: 20,
@@ -236,8 +236,8 @@ Moray.seed(:id,
     max_length: nil,
     max_length_str: nil,
     distribution: nil,
-    description: nil,
-    video_url: nil
+    description: '口の中が真っ白。ワカウツボととてもよく似ている。',
+    video_url: 'gR_Rynq8_FM'
   },
   {
     id: 21,
@@ -248,8 +248,8 @@ Moray.seed(:id,
     max_length: 100.0,
     max_length_str: '100.0cm',
     distribution: nil,
-    description: nil,
-    video_url: nil
+    description: '体にY字模様を持っているので、英名ではY-patterned morayと呼ばれる。',
+    video_url: 'FX01uFRCsyE'
   },
   {
     id: 22,
@@ -260,8 +260,8 @@ Moray.seed(:id,
     max_length: 120,
     max_length_str: '120cm',
     distribution: nil,
-    description: nil,
-    video_url: nil
+    description: '柄がない。コケウツボと顔が似ている。',
+    video_url: '_7TyRHY3hZI'
   },
   {
     id: 23,
@@ -272,8 +272,8 @@ Moray.seed(:id,
     max_length: 50.0,
     max_length_str: '50.0cm',
     distribution: nil,
-    description: nil,
-    video_url: nil
+    description: '朱色の体に斑点模様がある。顔にも模様があり、鮮やかな見た目をしている。',
+    video_url: 'wKjafvghmOw'
   },
   {
     id: 24,
@@ -284,8 +284,8 @@ Moray.seed(:id,
     max_length: 93.4,
     max_length_str: '93.4cm',
     distribution: nil,
-    description: nil,
-    video_url: nil
+    description: '顔だけ黄色く、体は白色。黒い斑点模様が碁石に見える。',
+    video_url: 'Fr6Xcibk1Nk'
   },
   {
     id: 25,
@@ -296,8 +296,8 @@ Moray.seed(:id,
     max_length: 89.0,
     max_length_str: '89.0cm',
     distribution: nil,
-    description: nil,
-    video_url: nil
+    description: '稚魚の頃は白い体に褐色の斑点があるが、成魚になると褐色の体になり背びれの縁が白い。',
+    video_url: 'Lk-Rsj_cBuA'
   },
   {
     id: 26,
@@ -308,7 +308,7 @@ Moray.seed(:id,
     max_length: 47.0,
     max_length_str: '47.0cm',
     distribution: nil,
-    description: nil,
+    description: '黒い体に茶褐色の模様が特徴。尾ひれが他のウツボに比べ丸みを帯びている。',
     video_url: nil
   },
   {
@@ -320,8 +320,8 @@ Moray.seed(:id,
     max_length: 120,
     max_length_str: '120cm',
     distribution: nil,
-    description: nil,
-    video_url: nil
+    description: '褐色の体に斑点模様がある。ミゾレウツボとの違いは、斑点が丸いこと。',
+    video_url: 'ch0qvZeXzW8'
   },
   {
     id: 28,
@@ -332,8 +332,8 @@ Moray.seed(:id,
     max_length: 100.0,
     max_length_str: '100.0cm',
     distribution: nil,
-    description: nil,
-    video_url: nil
+    description: '褐色の体に斑点模様がある。ミゾレウツボとの違いは、斑点が繋がって歪な形になっていること。',
+    video_url: 'Nt5HvdcaFIY'
   },
   {
     id: 29,
@@ -344,8 +344,8 @@ Moray.seed(:id,
     max_length: 103,
     max_length_str: '103cm',
     distribution: nil,
-    description: nil,
-    video_url: nil
+    description: '白い体が特徴的。顔の周りに黒い斑点がある。',
+    video_url: 'UXQlS8dSDTw'
   },
   {
     id: 30,
@@ -356,8 +356,8 @@ Moray.seed(:id,
     max_length: 150,
     max_length_str: '150cm',
     distribution: nil,
-    description: nil,
-    video_url: nil
+    description: '赤褐色の体に大きな黄色の斑点模様がある。',
+    video_url: 'qQUrwCl_uZ8'
   },
   {
     id: 31,
@@ -368,7 +368,7 @@ Moray.seed(:id,
     max_length: 120,
     max_length_str: '120cm',
     distribution: nil,
-    description: nil,
-    video_url: nil
+    description: '口の中に斑点模様がある。ハナビラウツボととてもよく似ている。',
+    video_url: 'rOnnLrn4yzM'
   }
 )
