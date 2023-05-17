@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_05_14_021244) do
+ActiveRecord::Schema[7.0].define(version: 2023_05_17_091840) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -27,6 +27,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_14_021244) do
     t.datetime "discarded_at"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "video_url"
     t.index ["discarded_at"], name: "index_aquaria_on_discarded_at"
   end
 
