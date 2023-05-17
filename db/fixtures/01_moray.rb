@@ -9,7 +9,7 @@ Moray.seed(:id,
     max_length_str: '180cm',
     distribution: nil,
     description: nil,
-    video_url: nil
+    video_url: 'hsQxh_Vy3yk'
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ Moray.seed(:id,
     max_length_str: '54.5cm',
     distribution: nil,
     description: nil,
-    video_url: nil
+    video_url: 'MGE-C0XBx10'
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ Moray.seed(:id,
     max_length_str: '37.3cm',
     distribution: nil,
     description: nil,
-    video_url: nil
+    video_url: 'uMbqeSfEec0'
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ Moray.seed(:id,
     max_length_str: '80.0cm',
     distribution: nil,
     description: nil,
-    video_url: nil
+    video_url: 'qOfkmIrLy8I'
   },
   {
     id: 5,
@@ -57,7 +57,7 @@ Moray.seed(:id,
     max_length_str: '300cm',
     distribution: nil,
     description: nil,
-    video_url: nil
+    video_url: 'O51DSF7vgv4'
   },
   {
     id: 6,
@@ -69,7 +69,7 @@ Moray.seed(:id,
     max_length_str: '91.5cm',
     distribution: nil,
     description: nil,
-    video_url: nil
+    video_url: 'koUwkIv-N_s'
   },
   {
     id: 7,
@@ -81,7 +81,7 @@ Moray.seed(:id,
     max_length_str: '400cm',
     distribution: nil,
     description: nil,
-    video_url: nil
+    video_url: 'uOHHJ2dwYog'
   },
   {
     id: 8,
@@ -93,7 +93,7 @@ Moray.seed(:id,
     max_length_str: '100.0cm',
     distribution: nil,
     description: nil,
-    video_url: nil
+    video_url: 'UbNNKuSLNqY'
   },
   {
     id: 9,
@@ -105,7 +105,7 @@ Moray.seed(:id,
     max_length_str: '90.0cm',
     distribution: nil,
     description: nil,
-    video_url: nil
+    video_url: 'oHN8mwTCg2g'
   },
   {
     id: 10,
@@ -177,7 +177,7 @@ Moray.seed(:id,
     max_length_str: '300cm',
     distribution: nil,
     description: nil,
-    video_url: nil
+    video_url: 'Af8X62dxH6w'
   },
   {
     id: 16,
