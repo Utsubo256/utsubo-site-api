@@ -2,7 +2,7 @@ class Api::V1::AquariaController < ApplicationController
   skip_before_action :authenticate
 
   def index
-    aquaria = Aquarium.all
+    aquaria = Aquarium.kept
     render json: aquaria, status: :ok
   end
 
